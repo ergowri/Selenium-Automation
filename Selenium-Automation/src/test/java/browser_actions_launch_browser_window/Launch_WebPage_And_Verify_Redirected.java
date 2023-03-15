@@ -1,4 +1,4 @@
-package browser_actions;
+package browser_actions_launch_browser_window;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
