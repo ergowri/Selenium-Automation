@@ -1,4 +1,4 @@
-package browser_actions_browser_window;
+package browser_actions_browser_windows;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
