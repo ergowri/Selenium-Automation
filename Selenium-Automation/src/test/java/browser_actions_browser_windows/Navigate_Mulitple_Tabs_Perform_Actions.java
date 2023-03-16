@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
+//script to navigate b/w multiple tabs & perform some action on each tabs
 public class Navigate_Mulitple_Tabs_Perform_Actions {
 
 	static WebDriver driver;
