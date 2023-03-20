@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 
-//Script to find the total number of visible links and number of hidden links present on google page?
+//script to find the total no of visible&hidden links present on google pg
 public class Print_Visible_Hidden_Links {
 	static WebDriver driver;
 
