@@ -1,4 +1,4 @@
-package browser_actions_takesscreenshot;
+package takesscreenshot;
 
 import java.io.File;
 import java.io.IOException;
