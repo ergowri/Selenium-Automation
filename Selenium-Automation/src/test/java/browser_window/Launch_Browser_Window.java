@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-//script to launch browser window
+//script to launch browser window using user input
 public class Launch_Browser_Window {
 	public static WebDriver driver;
 
