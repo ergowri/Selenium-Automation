@@ -11,13 +11,13 @@ public class Print_Window_Handle_ID_Current_Browser {
 
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		
+
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(2000);
 
 		// Return window handle ID of current browser window
 		System.out.println("Window handle ID of current browser window is: " + driver.getWindowHandle());
-
+		
 		driver.quit();
 	}
 
