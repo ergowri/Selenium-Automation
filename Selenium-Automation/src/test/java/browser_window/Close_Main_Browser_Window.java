@@ -14,7 +14,7 @@ public class Close_Main_Browser_Window {
 
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
-		
+
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(2000);
 
@@ -22,10 +22,10 @@ public class Close_Main_Browser_Window {
 		System.out.println("Parent Window Handle ID: " + parent_window_ID);
 
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[3]/div[2]/p[2]/a")).click();
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 
 		driver.findElement(By.xpath("/html/body/div/div[1]/div/div[1]/div/div[2]/div[3]/div[1]/a[1]")).click();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 
 		Set<String> all_window_IDs = driver.getWindowHandles();
 		System.out.println("All Window Handle IDs: " + all_window_IDs);
@@ -38,6 +38,8 @@ public class Close_Main_Browser_Window {
 			}
 		}
 		Thread.sleep(7000);
+		driver.switchTo().window(parent_window_ID); // Exception in thread "main"
+													// org.openqa.selenium.NoSuchWindowException: no such window
 		driver.quit();
 	}
 }
