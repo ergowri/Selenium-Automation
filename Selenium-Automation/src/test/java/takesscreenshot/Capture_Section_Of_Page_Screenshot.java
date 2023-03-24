@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 //script to capture section of page screenshot using getScreenshotAs() method
-public class Take_Section_Of_Page_Screenshot {
+public class Capture_Section_Of_Page_Screenshot {
 	public static WebDriver driver;
 
 	public static void main(String[] args) throws IOException {
