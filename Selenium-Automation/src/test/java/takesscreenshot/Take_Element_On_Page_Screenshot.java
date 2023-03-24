@@ -23,7 +23,7 @@ public class Take_Element_On_Page_Screenshot {
 		File target = new File(".\\Screenshots\\logo.png");
 		FileUtils.copyFile(source, target);
 
-		driver.close();
+		driver.quit();
 
 	}
 }
